@@ -1,0 +1,11 @@
+{
+	"name": "facebook-graph",
+	"description": "A package for getting user data and friends from a Facebook user",
+	"homepage": "https://github.com/possibilities/meteor-cool-pkg",
+	"author": "Mike Bannister <notimpossiblemike@gmail.com> (http://po.ssibiliti.es)",
+	"version": "0.1.0",
+	"git": "https://github.com/possibilities/meteor-cool-pkg.git",
+	"packages": {
+		"another-cool-pkg": "0.1.1"
+	}
+}
