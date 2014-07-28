@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function(api, where) {
-	api.user(['minimongo', 'mongo-livedata', 'templating'], 'client');
+	api.use(['minimongo', 'mongo-livedata'], 'client');
 
 	api.add_files(['facebookPermissions.js'], 'client');
 	api.add_files(['facebook.js'], 'server')
