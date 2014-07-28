@@ -7,7 +7,7 @@ Npm.depends({
 });
 
 Package.on_use(function(api, where) {
-	api.use(['minimongo', 'mongo-livedata', 'accounts-facebook', 'accounts-ui'], 'client');
+	api.use(['minimongo', 'mongo-livedata', 'accounts-facebook'], 'client');
 
 	api.add_files(['facebookPermissions.js'], 'client');
 	api.add_files(['facebook.js'], 'server')
